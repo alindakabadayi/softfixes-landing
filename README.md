@@ -1,23 +1,23 @@
-# Softfixes – Landing Page
+# SoftFixes – Landing Page
 
-This is the official landing page for **Softfixes**, a SaaS platform built to help teams simplify their digital workspaces and streamline complex workflows.
+This is the official landing page for **SoftFixes**, a SaaS initiative built to simplify messy digital workspaces and improve team workflows.
 
-Designed with performance, clarity, and clean UI in mind, this page introduces Softfixes' core value propositions, key features, and demo access.
+Developed as a modern Single Page Application (SPA), this page reflects our early-stage mission and long-term product vision.
 
 ---
 
-## Features
+## ✨ Features
 
-- Fully responsive layout (desktop and mobile)
-- System-aware dark/light mode with manual toggle
-- Built with HTML5, CSS3, and vanilla JavaScript
-- Modern UI using CSS variables and transitions
+- Responsive layout (mobile & desktop)
+- Sticky navigation bar with smooth scroll
+- System-aware dark mode + toggle button
+- Built with HTML5, CSS3 (with variables), and vanilla JS
 - Lightweight, scalable, and framework-free
-- Ready to deploy on Vercel or GitHub Pages
+- Easily deployable on Vercel or GitHub Pages
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 <pre>
 ## 📁 Project Structure
@@ -36,43 +36,26 @@ softfixes-landing/
 
 ---
 
----
+## 🌐 Live Preview
 
-## Live Preview
-
-**Production:** [https://softfixes.com](https://softfixes.com)  
-**Development:** [https://softfixes-landing.vercel.app](https://softfixes-landing.vercel.app)
+> **Production**: [https://softfixes.com](https://softfixes.com)  
+> **Dev Preview**: [https://softfixes-landing.vercel.app](https://softfixes-landing.vercel.app)
 
 ---
 
-## Tech Stack
+## 👥 About the Team
 
-- **HTML5** – Structure and semantic layout  
-- **CSS3** – Styling, theming, and transitions  
-- **JavaScript** – Dark/light theme logic
+SoftFixes is built by a small founding team of two engineers, supported by a mentor and graduate of the **OPUS4i** incubator program.
 
----
-
-## Türkçe Açıklama
-
-Softfixes için geliştirilen bu açılış sayfası, modern, mobil uyumlu ve hızlı bir kullanıcı deneyimi sunar.  
-Ekiplerin dijital çalışma alanlarını sadeleştirmesine ve iş akışlarını optimize etmesine yardımcı olan bir SaaS çözümünü tanıtır.
+We’re passionate about eliminating digital clutter and making workspaces easier to scale.
 
 ---
 
-## License
-
-Released under the MIT License.  
-You are free to use, modify, and distribute this project.
-
----
-
-## Slogan
-**Fix it Fast / Own the Future**
-
----
-
-## License
+## 📝 License
 
 This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
+You are free to use, modify, and distribute the code as long as the license terms are respected.
+
+---
+
+> **Fix it Fast / Own the Future**

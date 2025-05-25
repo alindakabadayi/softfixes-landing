@@ -3,106 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SoftFixes – Fix Fast / Flow Free</title>
+  <title>SoftFixes</title>
   <link rel="stylesheet" href="style.css" />
-  <script defer src="theme.js"></script>
+  <script src="theme.js" defer></script>
 </head>
 <body>
 
-  <!-- [1] HERO -->
-  <section class="hero" id="hero">
-    <nav class="navbar">
-      <img src="soffixes_logo.png" alt="SoftFixes Logo" class="logo-img" />
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#who">Who it's for</a></li>
-        <li><a href="#demo">Try Now</a></li>
-      </ul>
-      <button id="theme-toggle" class="btn-theme">🌓</button>
+  <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+
+  <header class="navbar">
+    <div class="nav-logo">
+      <img src="soffixes_logo.png" alt="SoftFixes Logo" />
+      <span>SoftFixes</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#use-cases">Use Cases</a>
+      <a href="#why">Why SoftFixes</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <div class="hero-content">
-      <h1>Fix Fast. Flow Free.</h1>
-      <p>Softfixes is the intelligent SaaS solution designed to clean up your workspace and elevate your workflow.</p>
-      <a href="#demo" class="btn">🔵 Try It Free</a>
-      <a href="#demo" class="btn-secondary">⚪️ Schedule a Demo</a>
+  <section class="hero" id="home">
+    <h1>Fix it Fast / Own the Future</h1>
+    <p>SoftFixes is a SaaS startup focused on building clean, efficient digital experiences—starting with your workspace.</p>
+    <div class="buttons">
+      <button class="btn">Try It Free</button>
+      <button class="btn-secondary">Schedule a Demo</button>
     </div>
   </section>
 
-  <!-- [2] PROBLEM -->
-  <section id="problem" class="section">
-    <h2>Teams Struggle with Messy Workspaces</h2>
-    <p>Cluttered tags, inconsistent labels, and unscalable organization harm productivity and clarity.</p>
-    <div class="stat-box">📊 86% of ClickUp users report frustration with tag management.</div>
-  </section>
-
-  <!-- [3] OUR SOLUTION -->
-  <section id="solution" class="section">
-    <h2>Meet Softfixes</h2>
-    <p>We built a scalable, intelligent system to help you organize, clean, and optimize tags—starting with ClickUp, expanding to where you need it most.</p>
-  </section>
-
-  <!-- [4] CORE FEATURES -->
-  <section id="features" class="section">
-    <h2>Core Features</h2>
+  <section id="features">
+    <h2>Core Features We’re Designing for Real Teams</h2>
     <div class="features-grid">
-      <div class="feature-card">✅ Smart Tag Detection</div>
-      <div class="feature-card">🔍 Real-time Error Highlighting</div>
-      <div class="feature-card">♻️ Auto Clean-up & Optimization</div>
-      <div class="feature-card">🧠 Performance Analytics</div>
-      <div class="feature-card">🛡️ Backup & Rollback</div>
-      <div class="feature-card">🔗 Integrations with ClickUp, GTM, and more</div>
+      <div class="feature"><h3>Smart Tag Detection</h3><p>Detect redundant, outdated, or inconsistent tags with minimal setup.</p></div>
+      <div class="feature"><h3><span class="emoji">🔍</span> Real-Time Feedback</h3><p>See problems as they happen—no audits, no delays.</p></div>
+      <div class="feature"><h3>Auto Clean-up (in progress)</h3><p>We’re working on intelligent cleanup that adapts to your rules.</p></div>
+      <div class="feature"><h3>Usage Insights</h3><p>Get actionable data on tag usage, structure health, and bloat.</p></div>
+      <div class="feature"><h3>Safe Rollbacks</h3><p>Preview and undo changes before they hit your workspace.</p></div>
+      <div class="feature"><h3><span class="emoji">🔌</span> Platform Integrations</h3><p>ClickUp first. Google Tag Manager, Notion & more to come.</p></div>
     </div>
   </section>
 
-  <!-- [5] WHO IS IT FOR -->
-  <section id="who" class="section">
-    <h2>Who is it for?</h2>
-    <div class="features-grid">
-      <div class="feature-card">👨‍💼 Team Leads & Project Managers</div>
-      <div class="feature-card">📈 Growth & Ops Teams</div>
-      <div class="feature-card">💻 SaaS Companies Managing Complex Data</div>
+  <section id="use-cases">
+    <h2>Who Is It For?</h2>
+    <div class="use-cases">
+      <div class="persona"><h3>Team Leads & Project Managers</h3><p>Stay on top of workflow chaos with better structure and visibility.</p></div>
+      <div class="persona"><h3>Ops & Growth Teams</h3><p>Cut down tool bloat and improve how data flows across platforms.</p></div>
+      <div class="persona"><h3>SaaS Companies Managing Complexity</h3><p>Scale smarter with systems that support clarity, not clutter.</p></div>
     </div>
   </section>
 
-  <!-- [6] WHY SOFTFIXES -->
-  <section id="why" class="section">
-    <h2>Why Softfixes?</h2>
-    <ul class="why-list">
-      <li>⚙️ Microservices Architecture</li>
-      <li>🔐 Secure OAuth + Role-based Access</li>
-      <li>🎨 Seamless UX/UI</li>
-      <li>🧠 Built by engineers who get tagging pain</li>
-      <li>⚡ Fast onboarding. Zero bloat.</li>
+  <section id="why">
+    <h2>Why SoftFixes?</h2>
+    <ul>
+      <li>Built by engineers who’ve experienced tagging problems firsthand</li>
+      <li>Graduates of the OPUS4i startup incubator program</li>
+      <li>Designed with scalability and simplicity in mind</li>
+      <li>Focused on fast onboarding and zero bloat</li>
     </ul>
   </section>
 
-  <!-- [7] CTA FORM -->
-  <section id="demo" class="section">
-    <h2>Get Started Today</h2>
-    <p>No credit card required. Just start fixing.</p>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <select required>
-        <option disabled selected>Select Platform</option>
-        <option>ClickUp</option>
-        <option>Google Tag Manager</option>
-        <option>Other</option>
-      </select>
-      <button type="submit">Get Started for Free</button>
+  <section id="contact">
+    <h2>Start Cleaning Smarter—Tell Us Where to Begin</h2>
+    <p>We're currently onboarding early users. Leave your info and we’ll get in touch to schedule a personalized demo.</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Anything you'd like to add? (Optional)</label>
+      <textarea id="message" name="message" rows="3" placeholder="e.g. your platform, team size, or workflow pain points..."></textarea>
+      <button type="submit" class="btn">Get Started for Free</button>
     </form>
+    <p class="note">No credit card required. Just start fixing.</p>
   </section>
 
-  <!-- [8] FOOTER -->
-  <footer class="footer">
+  <footer>
     <div class="footer-links">
-      <a href="#">About Us</a> | 
-      <a href="#">Terms</a> | 
-      <a href="#">Privacy</a> | 
-      <a href="#contact">Contact</a>
+      <a href="#">About</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
     </div>
-    <p>Softfixes © 2025</p>
+    <div class="footer-copy">
+      <p>© 2025 SoftFixes. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>
